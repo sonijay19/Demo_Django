@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome Page</title>
+</head>
+{% csrf_token %}
+<body>
+    <h1>Your UserName is {{uname}}</h1>
+    <form action="logout"><input type="submit" value="LogOut"></form>
+</body>
+</html>
